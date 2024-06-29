@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
+    overflow-x: hidden;
 }
 /* NAV START */
 
@@ -215,6 +216,22 @@ footer .form button {
 footer .form button:hover {
     color: black;
     background-color: white;
+}
+footer .copyright {
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px;
+    width: 98%;
+    font-size: 20px;
+}
+footer .copyright .copyright-left a {
+    color: black;
+    padding: 0 5px;
+}
+footer .copyright .copyright-left a:hover {
+    color: blue;
 }
 
 /*FOOTER END */
